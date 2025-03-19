@@ -1,0 +1,5 @@
+1. Window powershell 관리자 권한 실행
+2. Get-ExecutionPolicy 실행, Restricted일 경우, Set-ExecutionPolicy AllSigend 실행 후 Y
+3. 하기 코드 입력
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+※ 참고 자료 : https://velog.io/@shinyejin0212/chocolatey-Windows%EC%9A%A9-%ED%8C%A8%ED%82%A4%EC%A7%80-%EB%A7%A4%EB%8B%88%EC%A0%80-chocolatey-%EC%84%A4%EC%B9%98-%ED%95%98%EA%B8%B0
