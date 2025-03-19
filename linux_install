@@ -1,3 +1,6 @@
-Ubuntu 설치
+Ubuntu 설치(윈도우 기준)
 
-참고 자료 : https://velog.io/@pikamon/Linux-3
+1. microsoft store에서 Ubuntu 설치
+2. 윈도우 키 -> Windows 기능 켜기 / 끄기 -> Linux용 Windows 하위 시스템 체크 표시 -> 재시작 후 Ubuntu 실행 및 설치
+
+참고 자료 : https://hellowworlds.tistory.com/84, https://velog.io/@pikamon/Linux-3
