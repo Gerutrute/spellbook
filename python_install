@@ -1,7 +1,9 @@
 1. IDE 프로그램은 깔려져 있는 상태(VS code / cursor / windsurf)
-2. 가상환경 설정을 위한 Miniconda 설치(URL:https://www.anaconda.com/download)
-3. power shell에서 관리자로 실행한 후 권한부여(참고 주소 : https://seokbong.tistory.com/281)
+2. 가상환경 설정을 위한 miniconda 설치(URL:https://www.anaconda.com/download)
+3. miniconda 경로 설정
+- 윈도우 키 -> 고급 시스템 설정 보기 -> 고급 -> 환경변수 -> 사용자 변수 -> path 선택 -> 새로 만들기 -> 환경 변수 편집 -> miniconda/Scripts 경로 추가
+4. power shell에서 관리자로 실행한 후 권한부여(참고 주소 : https://seokbong.tistory.com/281)
 - get-help Set-ExecutionPolicy 명령어 입력 후 Y
 - Set-ExecutionPolicy RemoteSigned 명령어 입력 후 Y
-4. conda 가상환경 설치(참고 주소 : https://velog.io/@tngus0325/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EA%B0%80%EC%83%81%ED%99%98%EA%B2%BD-Conda%EC%99%80-Venv%EC%9D%98-%EC%9D%B4%ED%95%B4)
+5. conda 가상환경 설치(참고 주소 : https://velog.io/@tngus0325/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EA%B0%80%EC%83%81%ED%99%98%EA%B2%BD-Conda%EC%99%80-Venv%EC%9D%98-%EC%9D%B4%ED%95%B4)
 - conda create -n (가상환경 이름) python=3.x.x
