@@ -1,0 +1,30 @@
+Linux 기본 명령어
+pwd(Print Working Directory) : 현재 작업 중인 디렉터리의 경로를 출력(=cmd : cd or chdir)
+ls : 현재 디렉터리에 있는 파일과 폴더 목록 출력(=cmd : dir)
+mkdir(make directory) : 새로운 디렉토리 생성
+cd(change directory) : 디렉터리 이동(=cmd : cd)
+※ 절대 경로의 경우 정확한 폴더 위치 지정, 상대 경로의 경우 cd ..로 상위폴더로 cd ./XXX로 빠르게 경로 이동
+touch : 새로운 파일 생성
+mv(move) : 파일이나 디렉터리를 이동하거나 이름변경
+ex) mv test.txt ./test/test/test4.txt -> test.txt가 ./test/test/test4.txt로 위치/이름 변경 됨
+cp(copy) : 파일이나 디렉터리를 복사
+(디렉터리를 복사하려면 cp -r, -r은 recursive란 뜻으로 하위 디렉토리에 모두 적용)
+rm(remove) : 파일이나 디렉터리를 삭제
+(디렉토리 삭제하는 경우 rm -rf로 r은 recursive, f는 force라는 뜻)
+cat : 파일의 내용 출력
+
+명령어 옵션 :
+ls -a 숨김 파일을 포함하여 모든 파일과 디렉터리를 출력
+ls -l 파일과 디렉터리의 상세정보를 출력
+ls -al처럼 묶어서도 사용이 가능함
+ls -t : 파일을 수정한 시간 순서대로 정렬하여 출력
+ls -r : 파일을 수정한 시간 역순으로 정렬하여 출력
+ls -R : 하위 디렉터리를 포함하여 전체 파일 목록을 출력
+ls -S : 파일 크기 순서대로 정렬하여 출력
+man : 명령어에 대한 메뉴얼 제고, man ls를 치면 ls에 대한 메뉴얼을 볼 수 있음
+
+ll : 자세한 파일리스트 확인 (==ls -lh)
+alias ll=ls-lh 로 단축명령어로 만들 수 있음
+
+echo hello > test.txt : test.txt에 hello 라는 문자 입력
+ls -al > test.txt : 숨김 파일을 포함한 모든 파일과 디렉터리의 상세정보 출력
