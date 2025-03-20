@@ -53,6 +53,7 @@ alias ll=ls-lh 로 단축명령어로 만들 수 있음
 
 echo hello > test.txt : test.txt에 hello 라는 문자 입력 // > : 출력 리다이렉션?, < : 입력 리다이렉션?
 ls -al > test.txt : 숨김 파일을 포함한 모든 파일과 디렉터리의 상세정보 출력
+cat << EOF > animal.txt : EOF가 입력될 때까지 animal에 원하는 [문자] 입력
 echo add line >> XXX : 기존 형식을 유지한채 뒤의 내용을 다음 줄에 이어 붙임 // >> : 리다이렉션 기능??
 sudo mound /dev/sdb1/mnt/usb : /dev/sdb1 디바이스를 /mnt/usb 디렉토리에 마운트
 ※ sudo : super user의 보안 권한으로 프로그램을 구동할 수 있게하는 명령어
